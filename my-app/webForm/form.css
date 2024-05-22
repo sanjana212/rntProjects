@@ -1,0 +1,104 @@
+.cheklist_label {
+    width: 50%;
+}
+
+;
+
+.cheklist_input {
+    width: 10%;
+}
+
+.main_div {
+    border: 1px solid red;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.verification_div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checklist_div {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.checklist_subdivs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10px;
+
+}
+
+.approval_div {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin-left: 10px; */
+}
+.input_bottom_border{
+    border:none;
+    border-bottom:2px solid red;
+    width:300px;
+    outline: none;
+}
+.input_bottom_border1{
+    border:none;
+    border-bottom:2px solid red;
+    /* width:300px; */
+    outline: none;
+}
+.approch_subdivs{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    margin-left: 10px;   
+}
+.input_bottom_border3{
+    border:none;
+    border-bottom:2px solid red;
+    width:253px;
+    outline: none;
+}
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+    appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+  border: 1px solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  color: red;
+  outline: red;
+  place-content: center;
+  
+  }
+  input[type="checkbox"]::before {
+    /* content: "\2714"; */
+    width: 0.5em;
+    height: 0.5em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* color: blue; */
+  }
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+  }
+  
+.form_header{
+    text-align: center;
+    color: red;
+}
