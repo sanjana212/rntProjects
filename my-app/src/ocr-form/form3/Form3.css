@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.sub_main{
+    width: 80%;
+    margin: 30px auto;
+}
+.ac2_heading{
+    padding: 7px 5px;
+    background-color: #f03b7d;
+    color: #fff;
+}
+.nomination{
+    color: #f03b7d;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Nom_nm, .Nom_nm1{
+    display: inline-block;
+    width: 82%;
+    border-bottom: 2px solid #f03b7d;
+}
+.Nom_nm1{
+    width: 30%;
+}
+.nomination_det {
+    margin: 10px 0;
+    }
+.nomination_det p{
+    line-height: 22px;
+}
+table{
+    border: #f03b7d;
+    border-collapse: collapse;
+}
+table tr{
+    height: 5rem;
+}
+.nominee_name, .nom_age, .nom_add{
+    display: inline-block;
+    width: 63%;
+    border-bottom: 1px solid #f03b7d;
+}
+.nom_age{
+width: 50px !important;
+}
+.nom_add{
+    width: 40% !important;
+}
+.nominee_details{
+    margin: 10px 0;
+}
+.nominee_details p{
+    line-height: 20px;
+}
+.table_sign tr{
+    height: 3rem !important;
+    padding: 5px;
+}
+.terms{
+    margin: 10px 0;
+}
+.terms ol{
+    margin-left: 15px;
+}
+.terms ol li{
+    margin-top: 10px;
+}

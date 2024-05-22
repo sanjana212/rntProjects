@@ -1,0 +1,430 @@
+.DashBoardHeading{
+    padding: 0%!important;
+  }
+  /*************************Data Table css*********************/
+  #root>div>div>div>div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal>div.ag-root.ag-unselectable.ag-layout-normal>div.ag-body-viewport.ag-row-no-animation.ag-layout-normal>div.ag-center-cols-clipper>div>div {
+    width: 100% !important;
+  }
+  .ag-header-cell.ag-focus-managed,
+  .ag-cell.ag-cell-not-inline-editing.ag-cell-normal-height.ag-cell-value {
+    border: none;
+    font-size: 14px !important;
+    padding: 0 10px !important;
+    text-align: left;
+  }
+  #ag-2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  .search-dateContainer {
+    display: flex;
+  }
+  .ag-theme-alpine .ag-paging-panel>* {
+    font-size: 13px;
+  }
+  .ag-paging-panel{
+    background-color: #fff!important;
+  }
+  .ButtonDiv button{
+    border: none;
+    background: none;
+    padding: 5px 3px;
+    cursor: pointer;
+  }
+  .DeleteModal{
+      display: block;
+      padding: 1em;
+      max-width: 79%;
+      width: 25% !important;
+      text-align: center;
+      background-color: #fff;
+      border-radius: 1em;
+      transform: translate(-50%, -50%);
+      outline: transparent;
+      transition: all .5s ease-in-out;
+      animation: show .2s;
+      transform: scale(1);
+      height: 30%;
+  }
+  .ReportTable .ag-header.ag-pivot-off{
+    height: 35px !important;
+      min-height: 32px !important;
+      background-color: #00ADEE !important;
+  }
+  .DeleteModal1{
+    display: block;
+    padding: 1em;
+    max-width: 79%;
+    width: 30% !important;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1em;
+    /* transform: translate(-50%, -50%); */
+    outline: transparent;
+    transition: all .5s ease-in-out;
+    animation: show .2s;
+    transform: scale(1);
+    height: 30%;
+  }
+  .ag-header.ag-pivot-off > div.ag-header-viewport > div > div,.ag-root.ag-unselectable.ag-layout-normal > div.ag-header.ag-pivot-off > div.ag-header-viewport > div{
+    width: 100%;
+  }
+  /* .ag-header-viewport > div > div > div:nth-child(9){
+    border: none;
+  } */
+  .DeleteModal1 .MsgDiv{
+    margin-top: 10px;
+    display: block !important;
+  }
+  .DeleteModal1 .MsgDiv img{
+    width: 30%;
+  }
+  .DeleteModal1 .MsgDiv span{
+    display: block;
+  }
+  .DeleteClose{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+    margin: 22px 5px 5px;
+    padding: 5px 20px;
+    background: #55A8DA;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+  }
+  .DeleteYes{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+    margin: 22px 5px 5px;
+    padding: 5px 20px;
+    border:1px solid #55A8DA;
+    background: transparent;
+    color: #55A8DA;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+  }
+  .DeleteYes:hover{
+    transition: .5s ease-in-out;
+    background: #55A8DA;
+    color: #FFFFFF;
+  }
+  .DeleteNo:hover{
+    transition: .5s ease-in-out;
+    border:1px solid #55A8DA;
+    background: transparent;
+    color: #55A8DA;
+  }
+  .dashboardTable {
+    height: 54vh;
+    width: 100%;
+    margin-top: 5px;
+    overflow-x: hidden;
+  }
+  .ag-header-cell-label, .ag-header-group-cell-label {
+  align-items: start;
+  margin-top: 5px;
+  }
+  button{
+    cursor: pointer;
+  }
+  .closeIcon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #55A8DA;
+  }
+  .DeleteNo{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    border:1px solid #55A8DA;
+    margin: 5px;
+    text-align: center;
+    margin: 22px 5px 5px;
+    padding: 5px 20px;
+    background: #55A8DA;
+    color: #FFFFFF;
+    border-radius: 5px;
+  }
+  .buttonDivDele{
+  width: 100%;
+  }
+  .MsgDiv{
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 2.3rem;
+  }
+  .TableHeading{
+    font-size: 21px;
+    color: #00ADEE;
+  }
+  .search_filter input {
+    margin-left: 10px;
+    width: 225px;
+    height: 17px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  .date_filter input {
+    margin-left: 10px;
+    width: 129px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 8px;
+  }
+  .ag-theme-alpine .ag-paging-panel {
+    margin-top: 10px;
+    border: none !important;
+    background-color: #E5F4FA;
+  }
+  .ag-theme-alpine .ag-root-wrapper {
+    border: none !important;
+    border-radius: 15px;
+  }
+  #ag-2-first-row::before {
+    content: 'Showing';
+    margin-right: 5px;
+  }
+  #ag-2-of::before {
+    content: "Entries";
+    margin-right: 5px;
+  }
+  #ag-2-row-count::after {
+    content: "Entries";
+    margin-left: 5px;
+  }
+  .ag-theme-alpine .ag-paging-number,
+  .ag-theme-alpine .ag-paging-row-summary-panel-number {
+    font-weight: normal !important;
+  }
+  .ag-theme-alpine .ag-paging-panel>* {
+    margin: 0 !important;
+    padding: 5px 0;
+  }
+  #ag-2>span.ag-paging-page-summary-panel>div:nth-child(5),
+  #ag-2>span.ag-paging-page-summary-panel>div:nth-child(1) {
+    display: none;
+  }
+  #page-size {
+    margin: 0 8px;
+    font-size: 15px;
+    padding: 0px 3px;
+    border-radius: 5px;
+    height: 25px;
+    background: transparent;
+    width: 55px;
+  }
+  #searchFil::placeholder,
+  #dateFil {
+    font-size: 18px;
+  }
+  #searchFil::placeholder {
+    opacity: .7;
+  }
+  .Tooltip {
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px #0000002b;
+  }
+  .Tooltip p {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .ag-header-cell-text {
+    font-size: 13px;
+  }
+  .ag-header-group-cell-label,
+  .ag-header-cell-label {
+    justify-content: flex-start;
+  }
+  .report-header div {
+    font-size: 13px;
+  }
+  .ag-header ag-pivot-off {
+    height: 35px !important;
+    min-height: 35px !important;
+  }
+  input::placeholder {
+    font-size: 13px !important;
+  }
+  .CreateBtn button {
+    background: #00ADEE;
+    padding: 7px 20px 7px 38px;    
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+  }
+  .CreateBtn {
+    position: relative;
+  }
+  .CreateBtn img {
+    position: absolute;
+    left: 25px;
+    top: 8px;
+  }
+  .search_filter {
+    position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #00ADEE;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .search_filter img {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    border-right: 1px solid #E0E1E1;
+    padding-right: 7px;
+  }
+  #root>div>div>div>div.ContentDiv>div>div.form-container>div.body>div>div>div:nth-child(2)>div>div.ag-theme-alpine>div>div>div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal>div.ag-root.ag-unselectable.ag-layout-normal>div.ag-header.ag-pivot-off>div.ag-header-viewport>div>div {
+    background-color: #3D95C8;
+    color: #fff;
+    height: 35px !important;
+    min-height: 35px !important;
+  }
+  #root>div>div>div>div.ContentDiv>div>div.form-container>div.body>div>div>div:nth-child(2)>div>div.ag-theme-alpine>div>div>div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal>div.ag-root.ag-unselectable.ag-layout-normal>div.ag-header.ag-pivot-off {
+    height: 35px !important;
+    min-height: 34px !important;
+  }
+  #ag-2>span.ag-paging-page-summary-panel>div:nth-child(2)>span {
+    background-color: #fff;
+    color: #3D95C8;
+    padding: 5px;
+  }
+  .ag-disabled>div:nth-child(2)>span {
+    color: red !important;
+  }
+  #ag-2>span.ag-paging-page-summary-panel>div:nth-child(4)>span {
+    background-color: #fff;
+    color: #3D95C8;
+    padding: 5px;
+  }
+  .MainHeadDiv {
+    position: fixed;
+    width: 79%;
+    background: #E5F4FA;
+    top: 9%;
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .ReportTable {
+    position: absolute;
+    top: 14%;
+    width: 98%;
+    padding: 0 1%;
+  }
+  .ag-icon{
+    background: #fff;
+    /* border: 1px solid; */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .ag-paging-button{
+    box-shadow: 2px 2px 5px #00000029;
+    border-radius: 5px;
+  }
+  .ag-theme-alpine .ag-paging-panel {
+  position: fixed;
+  bottom: 6%;
+  width: 97%;
+  padding: 10px;
+  height: 70px;
+  }
+  .ag-paging-button.ag-disabled {
+  color: #a7a7a7;
+  }
+  .ag-paging-button{
+  color: #00ADEE;
+  }
+  .ag-icon-first,.ag-icon-last{
+  display: none;
+  }
+  .ag-theme-alpine>div>div>div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal>div.ag-root.ag-unselectable.ag-layout-normal>div.ag-header.ag-pivot-off>div.ag-header-viewport>div>div {
+    background-color: #00ADEE;
+    color: #fff;
+    font-weight: normal;
+  }
+  .Tooltip {
+    background: #fff;
+    width: 200px;
+    height: auto;
+    color: #000;
+    position: relative;
+  }
+  .ag-paging-panel{
+    justify-content: space-between;
+  }
+  .ag-row-even{
+    background-color: #E5F4FA;
+  }
+  @keyframes show {
+  from{
+  transform: scale(0);
+    opacity:0;
+      z-index:-1;
+  } to{
+  transform: scale(1);
+    opacity: 1;
+      z-index:2;
+  }
+  }
+  .ButtonDiv button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 3px;
+  }
+  .ButtonDivTable {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 3% 0 0 0; */
+  align-items: center;
+  height: 28px;
+  }
+  .ag-ltr .ag-cell {
+  border-right: 1px solid #DBDBDB !important;
+  }
+  .ag-cell.ag-cell-not-inline-editing.ag-cell-normal-height.ag-cell-value, .ag-header-cell.ag-focus-managed {
+  border-right: 1px solid #DBDBDB;
+  }
+  .ag-root.ag-layout-normal {
+  height: 100%;
+  border: 1px solid #DBDBDB;
+  }
+  .ag-theme-alpine {
+  width:100%;
+  }
+  .Modal{
+    height: 40%;
+  }
+  span.ag-icon{
+    padding: 0;
+    background: border-box;
+  }
+  
+  .LoaderModal{
+    width: 100%;
+    border: none;
+    outline: none;
+  }

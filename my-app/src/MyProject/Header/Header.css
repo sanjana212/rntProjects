@@ -1,0 +1,19 @@
+.nursuryImage {
+    width: 350px;
+    height: 96px;
+    margin: -9px 0 0px -60px;
+}
+.header-search-bar{
+    border: 1px solid #d5d2d2;
+    width: 790px;
+    height: 50px;
+    /* margin: -9px 0 0px -60px; */
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    /* box-shadow: 1px 1px 10px 5px gray; */
+}
+.header-main{
+    display: flex;
+   
+}

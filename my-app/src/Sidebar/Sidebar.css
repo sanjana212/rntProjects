@@ -1,0 +1,10 @@
+.sidebar_main{
+    background: pink;
+    width:135px;
+    height:100vh;
+    background-color: aqua;
+}
+.sidebar_pTag{
+    padding: 10px;
+    margin: 0px 10px 9px 36px;
+}

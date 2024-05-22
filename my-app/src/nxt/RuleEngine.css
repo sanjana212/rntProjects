@@ -1,0 +1,22 @@
+/* .table-container {
+
+}
+
+.table-container .table{
+
+}
+*/
+.table-container{
+    position: absolute;
+    top:80px;
+    width: 100vw;
+}
+.table-tr-header{
+    padding: 10px;
+}
+.table-container .table .table-tr td{
+    padding:10px;
+}
+.table-container .table .table-tr td  .input-input {
+    margin: auto 10px;
+}

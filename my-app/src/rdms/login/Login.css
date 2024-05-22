@@ -1,0 +1,297 @@
+.container-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+input[data-password="password"] {
+    position: relative;
+}
+
+input[type=text]:invalid, input[data-password="password"]:invalid {
+    border-color: red;
+}
+
+input[data-password="password"]:focus ~ .passwordShowAndHide {
+    border-color: #00ADEE;
+}
+
+input[data-password="password"]:invalid ~ .passwordShowAndHide {
+    border-color: red;
+}
+
+.login-inputs:focus {
+    border-color: #00ADEE;
+}
+
+.software-details {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,0.1) 0%, rgba(255,255,255,0.4) 100%), url('../Assets/Images/login-image.png') no-repeat no-repeat center center/cover;
+}
+
+.login-heading {
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    width: 35vw;
+    padding: 1em 2rem;
+    border-radius: 1rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px #00000040;
+}
+
+.login-heading p {
+    padding: .5em;
+    text-shadow: 1px 1px 2px #222;
+}
+
+.login-title {
+    font-size: 2rem;
+    margin: .5rem 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #222;
+    pointer-events:none;
+}
+
+.login-form {
+    width: 405px;
+    margin-bottom: 130px;
+    z-index: 1;
+}
+
+.loginLogo img{
+    width: 405px;
+    margin-bottom: 50px;
+}
+
+.login-form-content {
+    width: 304px;
+    margin: auto;
+}
+
+.Login-labels {
+    font-size: 17px;
+}
+
+.login-inputs {
+    width: 100%;
+    border-radius: 5px;
+    padding: .5em 1em;
+    outline: none;
+    border: 1px solid #B8B8B8;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[data-password="password"] {
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+}
+
+.passwordBox {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordShowAndHide {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    color: #555;
+    border: 1px solid #B8B8B8;
+    border-left: 0;
+    z-index: 1;
+}
+
+.login-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: .5em;
+}
+
+.loginResetBtn {
+    width: 50%;
+    border: 1px solid #00ADEE;
+    background-color: #fff;
+    color: #00ADEE;
+    padding: .5em 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.loginSubmitBtn {
+    width: 50%;
+    border: 1px solid #00ADEE;
+    background-color: #00ADEE;
+    color: #fff;
+    padding: .5em 0;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.loginSubmitBtn:disabled {
+    width: 50%;
+    border: 1px solid hsl(196, 100%, 27%);
+    background-color: hsl(196, 100%, 27%);
+    color: hsl(0, 0%, 70%);
+    padding: .5em 0;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.login-sideCorner img {
+    position: absolute;
+    width: 204px;
+    bottom: 0;
+    right: 0;
+}
+
+.login-inputs:focus {
+    border-color: #00ADEE;
+}
+
+.loginErrorPopup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 40vh;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 0 1000px #00000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .25em;
+    border-radius: 5px;
+    gap: 20px;
+    text-align: center;
+    z-index: 99;
+}
+
+.loginErrorPopup p {
+    font-size: .9rem;
+} 
+
+.loginErrorAmin {
+    width: 80px;
+    height: 80px;
+}
+
+.loginErrorPopupBtn {
+    width: 60px;
+    outline: none;
+    background-color: #00ADEE;
+    border: 1px solid #00ADEE;
+    color: #fff;
+    padding: .25em 1em;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.required {
+    color: red;
+}
+
+
+@media only screen and (min-width: 1536px) {
+    
+    .login-title {
+        font-size: 2.8rem;
+    }
+
+    .login-form {
+        width: 405px;
+        margin-bottom: 130px;
+    }
+    
+    .loginLogo img{
+        width: 405px;
+        margin-bottom: 60px;
+    }
+    
+    .login-form-content {
+        width: 304px;
+        margin: auto;
+    }
+    
+    .Login-labels {
+        font-size: 1.2rem;
+    }
+
+    .login-inputs {
+        font-size: 1rem;
+    }
+    
+    .passwordShowAndHide {
+        font-size: 1.45rem;
+    }
+    
+    .loginResetBtn {
+        font-size: 1rem;
+    }
+    
+    .loginSubmitBtn {
+        font-size: 1rem;
+    }
+    
+    .loginSubmitBtn:disabled {
+       font-size: 1rem;
+    }
+    
+    .login-sideCorner img {
+        position: absolute;
+        width: 254px;
+    }
+    
+    .loginErrorPopup p {
+        font-size: 1.2rem;
+    }
+
+    .loginErrorAmin {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .loginErrorPopupBtn {
+        width: 70px;
+        outline: none;
+        background-color: #00ADEE;
+        border: 1px solid #00ADEE;
+        color: #fff;
+        padding: .25em 1em;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,53 @@
+.container {
+    margin: 10px 20px 0px 70px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0px 5px 25px #a7a7a7;
+    /* box-shadow: 0px 3px 7px 0px gray; */
+    /* margin: 20px 100px 20px;
+  */
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #06aeff;
+    /* old IE */
+    background-color: #06aeff;
+    /* Modern Browsers */
+}
+
+span {
+    border: 1px solid red;
+    padding: 4px;
+
+}
+
+span:hover .cross {
+    border: 1px solid black;
+    background: #06aeff;
+    color: white;
+    visibility: hidden;
+}
+
+.cross {
+    height: 10px;
+}
+
+.addBtn {
+    height: 35px;
+    width: 73px;
+    border: 2px dashed #06aeff;
+    padding: 2px 2px 0px 7px;
+    border-radius: 3px;
+    color: #06aeff;
+}
+
+.ReactModal__Content{
+    width: 680px!important;
+    height: 85vh;
+}
+.selectBox{
+    width: 30%!important;
+}

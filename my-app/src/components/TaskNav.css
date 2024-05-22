@@ -1,0 +1,13 @@
+.nav-item{
+    margin-right: 30px;
+  margin-left: 10px;
+}
+.link{
+    text-decoration: none;
+    padding: 10;
+    
+}
+#color{
+    background:linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+}

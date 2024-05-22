@@ -1,0 +1,201 @@
+.contaballGame_Container_btnDiv {
+   display: flex;
+   justify-content: space-around;
+}
+
+.contaballGame_Container_btn {
+   height: 35px;
+   width: 76px;
+   border-radius: 10%;
+   background: aqua;
+   border: 1px solid #7b7474;
+}
+
+.ballGame_Container {
+   margin-left: 50px;
+}
+
+
+
+
+
+body {
+   background-color: #d9e2eb;
+   color: black;
+}
+
+body * {
+   box-sizing: border-box;
+}
+
+#root {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+}
+
+.Mygame_Button {
+   flex: 1 1;
+   position: relative;
+   margin: 5px;
+   background: #7fbc85;
+   padding: 1.5vmax 3vmax 1.5vmax 3vmax;
+   border-radius: 1vmin;
+   border: solid 2px #eee7e7;
+   color: #f5eded;
+   cursor: pointer;
+   -webkit-user-select: none;
+   user-select: none;
+   font-family: Arial, Helvetica, Sans-Serif;
+   font-weight: bold;
+   box-shadow: 0px 0px 4px #e6dada;
+   text-align: center;
+}
+
+.Mygame_Button:hover,
+.Mygame_Button.active {
+   border-color: #efe8e8;
+   color: #eee;
+   background-color: #aed7b3;
+}
+
+.Mygame_Button.active {
+   border-color: #79d11f;
+}
+
+#MyGame_container {
+   display: flex;
+   position: absolute;
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   border: solid 2px #666;
+   border-width: 0px 2px 0px 2px;
+   background-color: linear-gradient(to right, #fc5c7d, #6a82fb)
+}
+
+#Mygame_rowTop,
+#MyGame_rowBottom {
+   display: flex;
+   position: relative;
+   flex: 1 1;
+   max-height: 100px;
+   background-color: linear-gradient(to right, #fc5c7d, #6a82fb);
+   border: solid 1px #666;
+   border-width: 2px 0px 2px 0px;
+   align-content: center;
+   justify-content: center;
+   background: green;
+}
+
+#MyGame_rowMiddle {
+   position: relative;
+   flex: 1;
+   align-content: center;
+   justify-content: center;
+   background: repeating-linear-gradient(green, yellow, green);
+}
+
+#Mygame_circle {
+   /* position:absolute;
+   width:15vh;
+   height:20vh;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   margin:auto;
+   border:solid 4px #666;
+   border-radius:50%;
+   background-color:#79d11f;
+   background:radial-gradient(ellipse closest-side at 50% 50%,rgba(158,255,60,1) 0%,rgba(99,181,15,1) 100%);
+   box-shadow:0px 0px 4px #333;
+   transform:translateX(-20vw) rotate(0deg); */
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   position: relative;
+   background: url('https://raw.githubusercontent.com/Yousuke777/texture/main/soccer-ball-02.png') repeat;
+   background-size: 200%;
+   box-shadow: -20px -10px 30px rgba(0, 0, 0, .75) inset;
+   animation: rotate-anim 2s linear infinite;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 131px 10px 1px 161px;
+   /* transform:translateX(-20vw) rotate(0deg);
+   animation: rotate-anim 2s linear infinite;
+   transition: all 2s; */
+   
+}
+
+#Mygame_circle:hover {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   position: relative;
+   background: url('https://raw.githubusercontent.com/Yousuke777/texture/main/soccer-ball-02.png') repeat;
+   background-size: 200%;
+   box-shadow: -20px -10px 30px rgba(0, 0, 0, .75) inset;
+   animation: rotate-anim 2s linear infinite;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 131px 10px 1px 161px;
+   /* transform: translateX(-20vw) rotate(0deg); */
+   /* animation: rotate-anim 2s linear infinite; */
+   /* transition: all 2s; */
+   /* transform: translateX(calc(100vw - 80px)) rotate(360deg); */
+   animation: bouncy 1s linear infinite;
+}
+
+/* .bouncing_balls {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+.bouncing_balls ul {
+   /* display: flex; */
+   /* border-bottom: 5px solid black; */
+}
+
+/* .bouncing_balls ul li {
+   width: 50px;
+   height: 50px;
+   background-color: black;
+   list-style: none;
+   margin: 0 10px;
+   border-radius: 50%;
+   animation: bouncy 1s linear infinite;
+} */
+
+@keyframes bouncy {
+   0%{transform: translateY(0);}
+   50%{transform: translateY(-80px);}
+   100%{transform: translate(0);}
+}
+
+/* ul li:nth-child(1){
+   animation-delay: 0.2s;
+   background: rgb(223, 144, 144);
+}
+ul li:nth-child(2){
+   animation-delay: 0.6s;
+   background:rgb(104, 238, 151);
+}
+ul li:nth-child(3){
+   animation-delay: 0.4s;
+   background: rgb(235, 191, 109);
+}
+ul li:nth-child(4){
+   animation-delay: 0.8s;
+   background: rgb(123, 193, 123);
+} */

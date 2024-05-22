@@ -1,0 +1,12 @@
+.box{
+    border:2px solid rgb(199, 193, 193);
+    height: 85px;
+    width:93px;
+    border-radius: 10%;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    padding: 10px;
+}
+.btn{
+    width: 5px;
+    height: 60px;
+}

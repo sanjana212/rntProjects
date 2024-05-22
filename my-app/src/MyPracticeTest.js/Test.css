@@ -1,0 +1,15 @@
+.big-box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.small-box {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(64, 255, 0);
+    position: relative;
+    z-index: 1;
+}

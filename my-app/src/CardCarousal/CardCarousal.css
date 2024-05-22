@@ -1,0 +1,4 @@
+.card-title {
+    margin-bottom: var(--bs-card-title-spacer-y);
+    padding:10px !important;
+}

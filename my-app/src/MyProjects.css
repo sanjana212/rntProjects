@@ -1,0 +1,7 @@
+.projectTab{
+    height: 110px;
+    width: 110px;
+    border: 1px solid gray;
+    background: violet;
+    border-radius: 5px;
+}

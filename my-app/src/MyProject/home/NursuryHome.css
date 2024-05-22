@@ -1,0 +1,11 @@
+.carousel-inner{
+    height: 450px;
+}
+.btnDiv{
+    position: absolute;
+    top:320px;
+    right:45%;
+}
+.btn{
+    width: 100%!important;
+}
